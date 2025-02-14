@@ -1,0 +1,14 @@
+/* font setup */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Hentaigana:wght@200..900&family=Nunito+Sans:ital,opsz,wdth,wght,YTLC@0,6..12,75..125,200..1000,440..540;1,6..12,75..125,200..1000,440..540&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+/* common styles */
+*{
+    margin: 0; /* emmet code for margin-0>>>>>>m:0 */
+    padding: 0; /* emmet code for padding-0>>>>>>p:0 */
+    font-family: "Imperial Script", "Nunito Sans", serif; /* multiple value in "font-family" family means if any of the font is not supported on end user's site the other one will do the work */
+}
+h1{
+    text-align: center;
+}
